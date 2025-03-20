@@ -15,9 +15,8 @@ const PORT = process.env.PORT || 4000;
 app.use(
   cors({
     origin: [
-      'https://krishicoin.vercel.app',
-      'http://localhost:5173',
-      'http://localhost:3000'
+      'https://client-delta-coral.vercel.app',
+    
     ],
     credentials: true
   })
